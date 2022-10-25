@@ -5,7 +5,7 @@ import { createMemoryHistory } from 'history';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
 
-describe('testando o componente App', () => {
+describe('testando o componente "App"', () => {
   test('testa o link "Home", se é renderizado', () => {
     render(
       <MemoryRouter>
